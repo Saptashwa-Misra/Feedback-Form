@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h2>Feedback Form</h2>
+  </div><br>
+  <form action="#">
+    <label>First Name</label>
+    <input type="text" class="Input" placeholder="Enter First Name"> <br><br>
+    <label>Last Name</label>
+    <input type="text" class="Input" placeholder="Enter Last Name"> <br><br>
+    <label>Date of Birth</label>
+    <input type="date" class="Input"><br><br>
+    <label>Gender </label>
+    <input type="radio" class="Input" name="gender" checked ><label>Male</label>
+    <input type="radio" class="Input" name="gender"><label>Female</label> <br><br>
+    <label>Country</label>
+    <select class="Input" name="country" id="country">
+      <option value="">India</option>
+      <option value="">England</option>
+      <option value="">Australia</option>
+      <option value="">Others</option>
+    </select><br><br>
+    <label>Email</label>
+    <input type="mail" class="Input" placeholder="Enter E-mail"> <br><br>
+    <label>Phone</label>
+    <input type="number" class="Input" placeholder="Enter Phone"> <br><br>
+    <label>On a scale of 1 to 5 how do you want to rate our service?</label>
+    <span>1</span>
+    <input type="range" name="rate" id="rate">
+    <span>5</span><br><br>
+    <a href="Feedback.html" id="DropUsALine">Drop Us A Line</a>
+    <br><br>
+    <input type="checkbox" class="Input">
+    <label>I Agree to share my details with Saptashwa Misra</label> <br><br>
+    <div class="footer">
+      <input type="submit" id="submit">
+      <input type="reset" id="Reset" value="Reset">
+    </div>
+</form>
+</body>
+</html>
